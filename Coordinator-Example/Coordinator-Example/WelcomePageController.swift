@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WelcomePageController.swift
 //  Coordinator
 //
 //  Created by Giulio Lombardo on 15/01/2019.
@@ -29,9 +29,22 @@
 
 import UIKit
 
-final class ViewController: UIViewController, StoryboardProtocol {
+final class WelcomePageController: UIViewController, ViewModelController {
+	typealias ViewModelType = WelcomePageViewModel
+
+	var viewModel: ViewModelType!
+
+	override var preferredStatusBarStyle: UIStatusBarStyle {
+		return .lightContent
+	}
+
+	@IBAction private func startApplicationAction(_: UIButton) {
+		viewModel.startApplication()
+	}
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+
+		// Do any additional setup after loading the view.
 	}
 }

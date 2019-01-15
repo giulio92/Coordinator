@@ -9,22 +9,86 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Tab Bar Controller-->
+        <scene sceneID="YT9-Dw-PP6">
             <objects>
-                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="Coordinator_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="wxJ-VV-A1v"/>
-                        <viewControllerLayoutGuide type="bottom" id="3RK-xY-Uwg"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <tabBarController storyboardIdentifier="TabBarController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Rne-rh-UoC" customClass="TabBarController" customModule="Coordinator_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="zEq-h7-mRB">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gHd-BO-6wA" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-660" y="27"/>
+        </scene>
+        <!--Welcome Page Controller-->
+        <scene sceneID="r4A-qT-lLn">
+            <objects>
+                <viewController storyboardIdentifier="WelcomePageController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Fk9-cX-2jA" customClass="WelcomePageController" customModule="Coordinator_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6iP-Dy-ECf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ID-7P-jwT">
+                                <rect key="frame" x="40" y="517" width="295" height="50"/>
+                                <color key="backgroundColor" white="0.67000000000000004" alpha="0.35223137840000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Zxb-W1-cjD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <state key="normal" title="Begin">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="startApplicationAction:" destination="Fk9-cX-2jA" eventType="touchUpInside" id="Im1-V3-nzP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKK-cE-Ib6">
+                                <rect key="frame" x="40" y="100" width="295" height="51.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="43"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="to a new Coordinator experience." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Otd-4q-n4Z">
+                                <rect key="frame" x="40" y="151.5" width="295" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MainCoordinator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AN3-Oe-nn7">
+                                <rect key="frame" x="124" y="630" width="127" height="17"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TKK-cE-Ib6" firstAttribute="top" secondItem="6iP-Dy-ECf" secondAttribute="top" constant="100" id="2Ub-9R-OfK"/>
+                            <constraint firstItem="6ID-7P-jwT" firstAttribute="centerX" secondItem="6iP-Dy-ECf" secondAttribute="centerX" id="2fn-gH-tht"/>
+                            <constraint firstItem="Otd-4q-n4Z" firstAttribute="centerX" secondItem="TKK-cE-Ib6" secondAttribute="centerX" id="C1Z-7f-faB"/>
+                            <constraint firstItem="Otd-4q-n4Z" firstAttribute="leading" secondItem="TKK-cE-Ib6" secondAttribute="leading" id="DTf-hS-yZc"/>
+                            <constraint firstAttribute="bottom" secondItem="AN3-Oe-nn7" secondAttribute="bottom" constant="20" id="DXz-JF-lq7"/>
+                            <constraint firstItem="6ID-7P-jwT" firstAttribute="leading" secondItem="TKK-cE-Ib6" secondAttribute="leading" id="LOt-WH-Ivb"/>
+                            <constraint firstItem="TKK-cE-Ib6" firstAttribute="leading" secondItem="6iP-Dy-ECf" secondAttribute="leading" constant="40" id="N3n-hG-R9Y"/>
+                            <constraint firstAttribute="bottom" secondItem="6ID-7P-jwT" secondAttribute="bottom" constant="100" id="N51-Ex-oRI"/>
+                            <constraint firstItem="TKK-cE-Ib6" firstAttribute="centerX" secondItem="6iP-Dy-ECf" secondAttribute="centerX" id="eip-bQ-QNy"/>
+                            <constraint firstItem="AN3-Oe-nn7" firstAttribute="centerX" secondItem="6iP-Dy-ECf" secondAttribute="centerX" id="f85-NT-xah"/>
+                            <constraint firstItem="Otd-4q-n4Z" firstAttribute="top" secondItem="TKK-cE-Ib6" secondAttribute="bottom" id="gnC-JI-GdC"/>
+                        </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zQ8-WN-kWH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="161" y="27"/>
         </scene>
     </scenes>
 </document>
