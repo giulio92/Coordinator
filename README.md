@@ -1,5 +1,9 @@
 # Coordinator
 
+![Language](https://img.shields.io/badge/language-Swift%204.2-orange.svg)
+![Supported platforms](https://img.shields.io/badge/platform-iOS-lightgrey.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 ## Concepts
 A `Coordinator` is an object that manages iOS applications navigation flow while keeping `UIViewController`s separate and independent.
 
