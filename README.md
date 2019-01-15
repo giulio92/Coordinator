@@ -1,8 +1,11 @@
 # Coordinator
 
+
+
 ## Credits
 - [Soroush Khanlou](https://github.com/khanlou) (for his original `Coordinator` proposal)
   - [The Coordinator](http://khanlou.com/2015/01/the-coordinator/)
+  - [Presenting Coordinators](https://vimeo.com/144116310) 📹
   - [Coordinators Redux](http://khanlou.com/2015/10/coordinators-redux/)
   - [Migrating To Coordinators](http://khanlou.com/2017/04/migrating-to-coordinators/)
   - [Model Mutation In Coordinators](http://khanlou.com/2017/05/model-mutation-in-coordinators/)
