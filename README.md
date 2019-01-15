@@ -28,8 +28,7 @@ Holding a `UITabBarController`
    ```
    private final var coordinator: YourCoordinator!
    ```
-3. `Init` -alize the `coordinator` and set it to your application's `UIWindow` like so in  
-`application(_ application:didFinishLaunchingWithOptions launchOptions:)`:
+3. `Init` -alize the `coordinator` and set it to your application's `UIWindow` like so in `application(_:didFinishLaunchingWithOptions:)`:
    ```
    window = UIWindow()
    window?.backgroundColor = .white
