@@ -26,21 +26,6 @@ Holding a `UITabBarController`
 - Make network remote calls
 - Be a `Delegate` for `ViewModel`s/`UIViewController`s
 
-## How to use
-1. Create a `NavCoordinator` or `TabCoordinator` class
-2. In `AppDelegate` add a `Coordinator` property like so:
-   ```
-   private final var coordinator: YourCoordinator!
-   ```
-3. `Init` -alize the `coordinator` and set it to your application's `UIWindow` like so in [`application(_:didFinishLaunchingWithOptions:)`](https://developer.apple.com/documentation/uikit/uiapplicationdelegate/1622921-application):
-   ```
-   window = UIWindow()
-   window?.backgroundColor = .white
-   window?.rootViewController = // Your Coordinator's UINavigationController or UITabBarController instance
-   window?.makeKeyAndVisible()
-   ```
-4. Use the `start` `func` in your `Coordinator` to present the first `UIViewController`
-
 ## Requirements
 - Xcode 10.0+
 - Swift 4.2+
