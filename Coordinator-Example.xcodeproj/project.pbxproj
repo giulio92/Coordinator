@@ -106,6 +106,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF38993F21EE797F00ADACF9 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				EFA0972421EE207000331C67 /* ViewModelController.swift */,
+				EFA0972521EE207000331C67 /* ViewModelProtocol.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
 		EFA096C721EE1A1300331C67 = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				EFA0970421EE1B7400331C67 /* Coordinator */,
+				EF38993F21EE797F00ADACF9 /* MVVM */,
 				EFA0970921EE1B7400331C67 /* Utility */,
 			);
 			name = Protocols;
@@ -184,8 +194,6 @@
 			isa = PBXGroup;
 			children = (
 				EFA0970A21EE1B7400331C67 /* StoryboardProtocol.swift */,
-				EFA0972421EE207000331C67 /* ViewModelController.swift */,
-				EFA0972521EE207000331C67 /* ViewModelProtocol.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
