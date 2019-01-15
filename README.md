@@ -41,6 +41,11 @@ Holding a `UITabBarController`
    ```
 4. Use the `start` `func` in your `Coordinator` to present the first `UIViewController`
 
+## Requirements
+- Xcode 10.0+
+- Swift 4.2+
+- iOS 8.0+
+
 ## Credits
 - [Soroush Khanlou](https://github.com/khanlou) (for his original `Coordinator` proposal)
   - [The Coordinator](http://khanlou.com/2015/01/the-coordinator/)
