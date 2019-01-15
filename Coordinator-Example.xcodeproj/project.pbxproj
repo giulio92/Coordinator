@@ -166,7 +166,7 @@
 				EFA0970921EE1B7400331C67 /* Utility */,
 			);
 			name = Protocols;
-			path = ../../../Protocols;
+			path = ../../Protocols;
 			sourceTree = "<group>";
 		};
 		EFA0970421EE1B7400331C67 /* Coordinator */ = {
