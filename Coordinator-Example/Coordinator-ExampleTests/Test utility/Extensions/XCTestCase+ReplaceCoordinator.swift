@@ -1,5 +1,5 @@
 //
-//  Coordinator_ExampleTests.swift
+//  XCTestCase+ReplaceCoordinator.swift
 //  Coordinator
 //
 //  Created by Giulio Lombardo on 15/01/2019.
@@ -27,18 +27,25 @@
 //  IN THE SOFTWARE.
 //
 
-import XCTest
-
 @testable import Coordinator_Example
 
-final class Coordinator_ExampleTests: XCTestCase {
-	override func setUp() {
-		// Put setup code here. This method is called before the invocation of
-		// each test method in the class.
+import UIKit
+import XCTest
+
+extension XCTestCase {
+	func replaceAppDelegateCoordinator(with coordinator: TabCoordinator) {
+		guard let appDelegate: AppDelegate = UIApplication.shared.delegate as? AppDelegate else {
+			fatalError("Unable to retrieve UIApplication's UIApplicationDelegate")
+		}
+
+		appDelegate.window?.rootViewController = coordinator.tabBarController
 	}
 
-	override func tearDown() {
-		// Put teardown code here. This method is called after the invocation of
-		// each test method in the class.
-	}
+    func replaceAppDelegateCoordinator(with coordinator: NavCoordinator) {
+        guard let appDelegate: AppDelegate = UIApplication.shared.delegate as? AppDelegate else {
+            fatalError("Unable to retrieve UIApplication's UIApplicationDelegate")
+        }
+
+        appDelegate.window?.rootViewController = coordinator.navigationController
+    }
 }
