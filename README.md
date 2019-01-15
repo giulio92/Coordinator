@@ -1,8 +1,16 @@
 # Coordinator
 
-### Concepts
+## Concepts
 
-A `Coordinator` is an object that manages iOS applications navigation flow
+A `Coordinator` is an object that manages iOS applications navigation flow while keeping `UIViewController`s separate and indipendent.
+
+By itself a `Coordinator` is a simple object that holds references to others `Coordinator`s and to his parent coordinator (if available). To be able to manage a navigation flow a `Coordinator` must be of two types:
+
+- `NavCoordinator`  
+Holding a `UINavigationController`
+
+- `TabCoordinator`  
+Holding a `UITabBarController`
 
 **What a `Coordinator` should do**
 - Present `Coordinator`s
