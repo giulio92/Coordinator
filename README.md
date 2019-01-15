@@ -1,6 +1,18 @@
 # Coordinator
 
+### Concepts
 
+A `Coordinator` is an object that manages iOS applications navigation flow
+
+**What a `Coordinator` should do**
+- Present `Coordinator`s
+- Push a `UIViewController`/`UINavigationController`/`UTabBarController` of another `Coordinator`
+- Create `Couple`s object
+- Be invisible to `UIViewController`s and only known by `ViewModel`s
+
+**What a `Coordinator` should not do**
+- Make network remote calls
+- Be a `Delegate` for `ViewModel`s/`UIViewController`s
 
 ## Credits
 - [Soroush Khanlou](https://github.com/khanlou) (for his original `Coordinator` proposal)
