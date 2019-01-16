@@ -23,7 +23,7 @@ Holding a `UITabBarController`
 - Be invisible to `UIViewController`s and only known by `ViewModel`s
 
 ### What a `Coordinator` should not do
-- Make network remote calls
+- Perform anything other than navigation (i.e. network calls)
 - Be a `Delegate` for `ViewModel`s/`UIViewController`s
 
 ## Requirements
