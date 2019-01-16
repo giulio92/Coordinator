@@ -24,7 +24,6 @@ Holding a `UITabBarController`
 
 ### What a `Coordinator` should not do
 - Perform anything other than navigation (i.e. network calls)
-- Be a `Delegate` for `ViewModel`s/`UIViewController`s
 
 ## Requirements
 - Xcode 10.0+
