@@ -31,12 +31,12 @@ Holding a `UITabBarController`
 - iOS 8.0+
 
 ## Credits
-- [Soroush Khanlou](https://github.com/khanlou) (for his original `Coordinator` proposal)
+- [Soroush Khanlou](https://github.com/khanlou), for his original `Coordinator` proposal
   - [The Coordinator](http://khanlou.com/2015/01/the-coordinator/) (January 20, 2015)
   - [Coordinators Redux](http://khanlou.com/2015/10/coordinators-redux/) (October 05, 2015)
   - [Presenting Coordinators](https://vimeo.com/144116310) 📹 (October 30, 2015)
   - [Migrating To Coordinators](http://khanlou.com/2017/04/migrating-to-coordinators/) (April 25, 2017)
   - [Model Mutation In Coordinators](http://khanlou.com/2017/05/model-mutation-in-coordinators/) (May 02, 2017)
   - [Back Buttons and Coordinators](http://khanlou.com/2017/05/back-buttons-and-coordinators/) (May 08, 2017)
-- [Martin Fowler](https://github.com/martinfowler) (for his original `Application Controller` concept)
+- [Martin Fowler](https://github.com/martinfowler), for his original `Application Controller` concept
   - [Application Controller](https://martinfowler.com/eaaCatalog/applicationController.html)
