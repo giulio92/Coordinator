@@ -4,11 +4,13 @@
 
 ---
 
-![Language](https://img.shields.io/badge/language-Swift%204.2-orange.svg)
-![Supported platforms](https://img.shields.io/badge/platform-iOS-lightgrey.svg)
-[![Build Status](https://travis-ci.org/giulio92/Coordinator.svg?branch=master)](https://travis-ci.org/giulio92/Coordinator)
-[![codebeat badge](https://codebeat.co/badges/9a6dfd01-5249-476c-99b6-4f420cb9bbbe)](https://codebeat.co/projects/github-com-giulio92-coordinator-master)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/giulio92/Coordinator/blob/master/LICENSE)
+<p align="center">
+<a href=""><img src="https://img.shields.io/badge/language-Swift%204.2-orange.svg"></a>
+<a href=""><img src="https://img.shields.io/badge/platform-iOS-lightgrey.svg"></a>
+<a href=""><img src="https://travis-ci.org/giulio92/Coordinator.svg?branch=master"></a>
+<a href="https://codebeat.co/projects/github-com-giulio92-coordinator-master"><img src="https://codebeat.co/badges/9a6dfd01-5249-476c-99b6-4f420cb9bbbe"></a>
+<a href="https://github.com/giulio92/Coordinator/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg"></a>
+</p>
 
 ## Concepts
 A `Coordinator` is an object that manages iOS applications navigation flow while keeping `UIViewController`s separate and independent.
