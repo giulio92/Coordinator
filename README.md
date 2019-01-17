@@ -2,6 +2,7 @@
 
 ![Language](https://img.shields.io/badge/language-Swift%204.2-orange.svg)
 ![Supported platforms](https://img.shields.io/badge/platform-iOS-lightgrey.svg)
+[![codebeat badge](https://codebeat.co/badges/9a6dfd01-5249-476c-99b6-4f420cb9bbbe)](https://codebeat.co/projects/github-com-giulio92-coordinator-master)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/giulio92/Coordinator/blob/master/LICENSE)
 
 ## Concepts
