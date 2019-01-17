@@ -63,11 +63,11 @@
 		EFA096DF21EE1A1400331C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFA096E421EE1A1400331C67 /* Coordinator-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coordinator-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA096EA21EE1A1400331C67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFA0970521EE1B7400331C67 /* PreviewingCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewingCoordinator.swift; sourceTree = "<group>"; };
-		EFA0970621EE1B7400331C67 /* NavCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavCoordinator.swift; sourceTree = "<group>"; };
-		EFA0970721EE1B7400331C67 /* TabCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
-		EFA0970821EE1B7400331C67 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		EFA0970A21EE1B7400331C67 /* StoryboardProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardProtocol.swift; sourceTree = "<group>"; };
+		EFA0970521EE1B7400331C67 /* PreviewingCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreviewingCoordinator.swift; path = ../Protocols/Coordinator/PreviewingCoordinator.swift; sourceTree = "<group>"; };
+		EFA0970621EE1B7400331C67 /* NavCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavCoordinator.swift; path = ../Protocols/Coordinator/NavCoordinator.swift; sourceTree = "<group>"; };
+		EFA0970721EE1B7400331C67 /* TabCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabCoordinator.swift; path = ../Protocols/Coordinator/TabCoordinator.swift; sourceTree = "<group>"; };
+		EFA0970821EE1B7400331C67 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Coordinator.swift; path = ../Protocols/Coordinator/Coordinator.swift; sourceTree = "<group>"; };
+		EFA0970A21EE1B7400331C67 /* StoryboardProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryboardProtocol.swift; path = ../Protocols/Utility/StoryboardProtocol.swift; sourceTree = "<group>"; };
 		EFA0971021EE1C8600331C67 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		EFA0971221EE1CE700331C67 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		EFA0971521EE1D9800331C67 /* WelcomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageController.swift; sourceTree = "<group>"; };
@@ -75,8 +75,8 @@
 		EFA0971C21EE1E6E00331C67 /* HomeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		EFA0971E21EE1E9600331C67 /* MenuCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCoordinator.swift; sourceTree = "<group>"; };
 		EFA0972021EE1ECA00331C67 /* SettingsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsCoordinator.swift; path = "Coordinator-Example/Sections/Settings/SettingsCoordinator.swift"; sourceTree = SOURCE_ROOT; };
-		EFA0972421EE207000331C67 /* ViewModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelController.swift; sourceTree = "<group>"; };
-		EFA0972521EE207000331C67 /* ViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
+		EFA0972421EE207000331C67 /* ViewModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewModelController.swift; path = ../Protocols/MVVM/ViewModelController.swift; sourceTree = "<group>"; };
+		EFA0972521EE207000331C67 /* ViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewModelProtocol.swift; path = ../Protocols/MVVM/ViewModelProtocol.swift; sourceTree = "<group>"; };
 		EFA0972821EE209700331C67 /* WelcomePageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomePageViewModel.swift; sourceTree = "<group>"; };
 		EFA0972A21EE220400331C67 /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 		EFA0972C21EE222600331C67 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 				EFA0972421EE207000331C67 /* ViewModelController.swift */,
 				EFA0972521EE207000331C67 /* ViewModelProtocol.swift */,
 			);
-			path = MVVM;
+			name = MVVM;
 			sourceTree = "<group>";
 		};
 		EFA096C721EE1A1300331C67 = {
@@ -186,7 +186,7 @@
 			children = (
 				EFA0970321EE1B7400331C67 /* Protocols */,
 			);
-			path = Utility;
+			name = Utility;
 			sourceTree = "<group>";
 		};
 		EFA0970321EE1B7400331C67 /* Protocols */ = {
@@ -197,7 +197,6 @@
 				EFA0970921EE1B7400331C67 /* Utility */,
 			);
 			name = Protocols;
-			path = ../../Protocols;
 			sourceTree = "<group>";
 		};
 		EFA0970421EE1B7400331C67 /* Coordinator */ = {
@@ -208,7 +207,7 @@
 				EFA0970521EE1B7400331C67 /* PreviewingCoordinator.swift */,
 				EFA0970721EE1B7400331C67 /* TabCoordinator.swift */,
 			);
-			path = Coordinator;
+			name = Coordinator;
 			sourceTree = "<group>";
 		};
 		EFA0970921EE1B7400331C67 /* Utility */ = {
@@ -216,7 +215,7 @@
 			children = (
 				EFA0970A21EE1B7400331C67 /* StoryboardProtocol.swift */,
 			);
-			path = Utility;
+			name = Utility;
 			sourceTree = "<group>";
 		};
 		EFA0971421EE1D7A00331C67 /* Sections */ = {
