@@ -27,11 +27,21 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otB-aK-pZe">
+                                <rect key="frame" x="118" y="303" width="139" height="61"/>
+                                <string key="text">This is
+SettingsController
+🛠</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="tOg-JI-VFh" firstAttribute="top" secondItem="cGn-TB-PG6" secondAttribute="bottom" constant="20" id="Dqs-xe-gpT"/>
                             <constraint firstItem="cGn-TB-PG6" firstAttribute="centerX" secondItem="RMp-sD-jUh" secondAttribute="centerX" id="WhI-1F-PMo"/>
+                            <constraint firstItem="otB-aK-pZe" firstAttribute="centerY" secondItem="RMp-sD-jUh" secondAttribute="centerY" id="bYd-Vn-lu4"/>
+                            <constraint firstItem="otB-aK-pZe" firstAttribute="centerX" secondItem="RMp-sD-jUh" secondAttribute="centerX" id="cwY-of-VGf"/>
                         </constraints>
                     </view>
                 </viewController>

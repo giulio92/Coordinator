@@ -27,10 +27,20 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rYj-ha-QXq">
+                                <rect key="frame" x="126" y="303" width="123.5" height="61"/>
+                                <string key="text">Welcome to
+MenuController!
+📚</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="rYj-ha-QXq" firstAttribute="centerX" secondItem="FDM-WF-2dS" secondAttribute="centerX" id="OR3-IE-3BX"/>
                             <constraint firstItem="Vsj-GK-E9S" firstAttribute="top" secondItem="Bzf-pc-x6b" secondAttribute="bottom" constant="20" id="Zgs-Bx-086"/>
+                            <constraint firstItem="rYj-ha-QXq" firstAttribute="centerY" secondItem="FDM-WF-2dS" secondAttribute="centerY" id="eHS-P6-f5c"/>
                             <constraint firstItem="Bzf-pc-x6b" firstAttribute="centerX" secondItem="FDM-WF-2dS" secondAttribute="centerX" id="p4O-Yp-Deh"/>
                         </constraints>
                     </view>
