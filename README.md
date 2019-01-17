@@ -21,6 +21,7 @@ Holding a `UITabBarController`
 - Push a `UIViewController`/`UINavigationController`/`UTabBarController` of another `Coordinator`
 - Create `Couple`s object
 - Be invisible to `UIViewController`s and only known by `ViewModel`s
+- Hold `Dependencies` in case of [Dependency Injection](https://en.wikipedia.org/wiki/Dependency_injection)
 
 ### What a `Coordinator` should not do
 - Perform anything other than navigation (i.e. network calls)
