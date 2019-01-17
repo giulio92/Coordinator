@@ -53,4 +53,23 @@ final class HomeCoordinator: NavCoordinator, PreviewingCoordinator {
 
 		navigationController.pushViewController(viewController, animated: false)
     }
+
+	func generateDetailCouple() -> Couple<HomeDetailViewModel, HomeDetailController> {
+		let storyboard: UIStoryboard = UIStoryboard(name: "Home", bundle: nil)
+
+		let viewModel: HomeDetailViewModel = HomeDetailViewModel(coordinator: self)
+		let viewController: HomeDetailController = HomeDetailController.initialize(with: viewModel, from: storyboard)
+
+		return (viewModel: viewModel, controller: viewController)
+	}
+
+	func previewDetailPage() -> HomeDetailController {
+		return generateDetailCouple().controller
+	}
+
+	func showDetailPage() {
+		let couple: Couple<HomeDetailViewModel, HomeDetailController> = generateDetailCouple()
+
+		navigationController.pushViewController(couple.controller, animated: true)
+	}
 }

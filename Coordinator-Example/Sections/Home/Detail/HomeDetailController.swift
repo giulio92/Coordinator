@@ -1,8 +1,8 @@
 //
-//  HomeController.swift
+//  HomeDetailController.swift
 //  Coordinator
 //
-//  Created by Giulio Lombardo on 15/01/2019.
+//  Created by Giulio Lombardo on 17/01/2019.
 //
 //  MIT License
 //
@@ -29,43 +29,14 @@
 
 import UIKit
 
-final class HomeController: UIViewController, ViewModelController {
-	typealias ViewModelType = HomeViewModel
+final class HomeDetailController: UIViewController, ViewModelController {
+	typealias ViewModelType = HomeDetailViewModel
 
 	var viewModel: ViewModelType!
-
-	@IBOutlet private var detailButton: UIButton!
-
-	@IBAction private func detailButtonAction(_: UIButton) {
-		viewModel.showDetail()
-	}
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-
-		if #available(iOS 9.0, *) {
-			setup3DTouchInteraction()
-		}
     }
-
-	@available(iOS 9.0, *)
-	private func setup3DTouchInteraction() {
-		guard traitCollection.forceTouchCapability == .available else {
-			return
-		}
-
-		registerForPreviewing(with: self, sourceView: detailButton)
-	}
-}
-
-extension HomeController: UIViewControllerPreviewingDelegate {
-	func previewingContext(_ previewingContext: UIViewControllerPreviewing, viewControllerForLocation _: CGPoint) -> UIViewController? {
-		return viewModel.previewDetail()
-	}
-
-	func previewingContext(_: UIViewControllerPreviewing, commit viewControllerToCommit: UIViewController) {
-		viewModel.commitPreviewContext(viewController: viewControllerToCommit)
-	}
 }

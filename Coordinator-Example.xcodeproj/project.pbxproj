@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF00D68621F07F1800E570AE /* HomeDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF00D68521F07F1800E570AE /* HomeDetailController.swift */; };
+		EF00D68821F07F5600E570AE /* HomeDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF00D68721F07F5600E570AE /* HomeDetailViewModel.swift */; };
 		EFA096D421EE1A1300331C67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA096D321EE1A1300331C67 /* AppDelegate.swift */; };
 		EFA096D921EE1A1300331C67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA096D721EE1A1300331C67 /* Main.storyboard */; };
 		EFA096DB21EE1A1400331C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA096DA21EE1A1400331C67 /* Assets.xcassets */; };
@@ -51,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF00D68521F07F1800E570AE /* HomeDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailController.swift; sourceTree = "<group>"; };
+		EF00D68721F07F5600E570AE /* HomeDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailViewModel.swift; sourceTree = "<group>"; };
 		EFA096D021EE1A1300331C67 /* Coordinator-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coordinator-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA096D321EE1A1300331C67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFA096D821EE1A1300331C67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,6 +110,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF00D68421F07EFE00E570AE /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				EF00D68721F07F5600E570AE /* HomeDetailViewModel.swift */,
+				EF00D68521F07F1800E570AE /* HomeDetailController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		EF38993F21EE797F00ADACF9 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +237,7 @@
 		EFA0971821EE1DF900331C67 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				EF00D68421F07EFE00E570AE /* Detail */,
 				EFA0973221EE228900331C67 /* Home.storyboard */,
 				EFA0971C21EE1E6E00331C67 /* HomeCoordinator.swift */,
 				EFA0973821EE237E00331C67 /* HomeViewModel.swift */,
@@ -395,10 +409,12 @@
 				EFA0972921EE209700331C67 /* WelcomePageViewModel.swift in Sources */,
 				EFA096D421EE1A1300331C67 /* AppDelegate.swift in Sources */,
 				EFA0972721EE207100331C67 /* ViewModelProtocol.swift in Sources */,
+				EF00D68621F07F1800E570AE /* HomeDetailController.swift in Sources */,
 				EFA0972F21EE223B00331C67 /* HomeController.swift in Sources */,
 				EFA0973921EE237E00331C67 /* HomeViewModel.swift in Sources */,
 				EFA0973121EE225500331C67 /* SettingsController.swift in Sources */,
 				EFA0971B21EE1E2000331C67 /* TabBarCoordinator.swift in Sources */,
+				EF00D68821F07F5600E570AE /* HomeDetailViewModel.swift in Sources */,
 				EFA0973B21EE23E300331C67 /* SettingsViewModel.swift in Sources */,
 				EFA0970F21EE1B7400331C67 /* StoryboardProtocol.swift in Sources */,
 				EFA0971D21EE1E6F00331C67 /* HomeCoordinator.swift in Sources */,

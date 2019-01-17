@@ -1,8 +1,8 @@
 //
-//  HomeCoordinator.swift
+//  HomeDetailViewModel.swift
 //  Coordinator
 //
-//  Created by Giulio Lombardo on 15/01/2019.
+//  Created by Giulio Lombardo on 17/01/2019.
 //
 //  MIT License
 //
@@ -27,30 +27,10 @@
 //  IN THE SOFTWARE.
 //
 
-import UIKit
+final class HomeDetailViewModel: ViewModel {
+	private let coordinator: HomeCoordinator
 
-final class SettingsCoordinator: NavCoordinator {
-    let navigationController: UINavigationController
-    var parentCoordinator: Coordinator?
-    var childCoordinators: [Coordinator]
-
-    init(navigationController: UINavigationController) {
-        self.navigationController = navigationController
-        childCoordinators = []
-
-        navigationController.tabBarItem = UITabBarItem(title: "Settings", image: nil, selectedImage: nil)
-    }
-
-    func start() {
-        showSettings()
-    }
-
-	func showSettings() {
-		let storyboard: UIStoryboard = UIStoryboard(name: "Settings", bundle: nil)
-
-		let viewModel: SettingsViewModel = SettingsViewModel(coordinator: self)
-		let viewController: SettingsController = SettingsController.initialize(with: viewModel, from: storyboard)
-
-		navigationController.pushViewController(viewController, animated: false)
+	init(coordinator: HomeCoordinator) {
+		self.coordinator = coordinator
 	}
 }

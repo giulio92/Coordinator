@@ -27,10 +27,24 @@
 //  IN THE SOFTWARE.
 //
 
+import UIKit
+
 final class HomeViewModel: ViewModel {
 	private let coordinator: HomeCoordinator
 
 	init(coordinator: HomeCoordinator) {
 		self.coordinator = coordinator
+	}
+
+	func showDetail() {
+		coordinator.showDetailPage()
+	}
+
+	func previewDetail() -> UIViewController? {
+		return coordinator.generateDetailCouple().controller
+	}
+
+	func commitPreviewContext(viewController: UIViewController) {
+		coordinator.commitViewController(viewController)
 	}
 }
