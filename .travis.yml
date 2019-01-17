@@ -1,0 +1,21 @@
+language: objective-c
+osx_image: xcode10.1
+
+env:
+    global:
+        - PROJECT=Coordinator-Example.xcodeproj
+        - SCHEME=Coordinator-Example
+        - SDK=iphonesimulator12.1
+        - DESTINATION="platform=iOS Simulator,OS=latest,name=iPhone SE"
+
+before_install:
+    # - brew update
+    # - brew upgrade
+    - gem update
+    - gem install xcpretty
+    - gem install xcpretty-travis-formatter
+    - gem clean
+    - xcodebuild -version
+    - xcodebuild -showsdks
+
+script: xcodebuild -project "$PROJECT" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug test | xcpretty -f `xcpretty-travis-formatter` && exit ${PIPESTATUS[0]}
