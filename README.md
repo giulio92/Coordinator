@@ -2,6 +2,8 @@
     <img src="https://github.com/giulio92/Coordinator/blob/master/GitHub%20Page/logo.png" width="500">
 </p>
 
+---
+
 ![Language](https://img.shields.io/badge/language-Swift%204.2-orange.svg)
 ![Supported platforms](https://img.shields.io/badge/platform-iOS-lightgrey.svg)
 [![Build Status](https://travis-ci.org/giulio92/Coordinator.svg?branch=master)](https://travis-ci.org/giulio92/Coordinator)
