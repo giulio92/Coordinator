@@ -25,7 +25,7 @@ Holding a `UITabBarController`
 ### What a `Coordinator` should not do
 - Perform anything other than navigation (i.e. network calls)
 
-## Xcode example project requirements
+## Example project requirements
 - Xcode 10.0+
 - Swift 4.2+
 - iOS 8.0+
