@@ -27,6 +27,10 @@
         <scene sceneID="r4A-qT-lLn">
             <objects>
                 <viewController storyboardIdentifier="WelcomePageController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Fk9-cX-2jA" customClass="WelcomePageController" customModule="Coordinator_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bYe-qk-6IX"/>
+                        <viewControllerLayoutGuide type="bottom" id="rXW-Mh-oTe"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6iP-Dy-ECf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -57,12 +61,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="to a new Coordinator experience." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Otd-4q-n4Z">
-                                <rect key="frame" x="40" y="151.5" width="295" height="21.5"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MainCoordinator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AN3-Oe-nn7">
                                 <rect key="frame" x="124" y="630" width="127" height="17"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
@@ -74,15 +72,12 @@
                         <constraints>
                             <constraint firstItem="TKK-cE-Ib6" firstAttribute="top" secondItem="6iP-Dy-ECf" secondAttribute="top" constant="100" id="2Ub-9R-OfK"/>
                             <constraint firstItem="6ID-7P-jwT" firstAttribute="centerX" secondItem="6iP-Dy-ECf" secondAttribute="centerX" id="2fn-gH-tht"/>
-                            <constraint firstItem="Otd-4q-n4Z" firstAttribute="centerX" secondItem="TKK-cE-Ib6" secondAttribute="centerX" id="C1Z-7f-faB"/>
-                            <constraint firstItem="Otd-4q-n4Z" firstAttribute="leading" secondItem="TKK-cE-Ib6" secondAttribute="leading" id="DTf-hS-yZc"/>
                             <constraint firstAttribute="bottom" secondItem="AN3-Oe-nn7" secondAttribute="bottom" constant="20" id="DXz-JF-lq7"/>
                             <constraint firstItem="6ID-7P-jwT" firstAttribute="leading" secondItem="TKK-cE-Ib6" secondAttribute="leading" id="LOt-WH-Ivb"/>
                             <constraint firstItem="TKK-cE-Ib6" firstAttribute="leading" secondItem="6iP-Dy-ECf" secondAttribute="leading" constant="40" id="N3n-hG-R9Y"/>
                             <constraint firstAttribute="bottom" secondItem="6ID-7P-jwT" secondAttribute="bottom" constant="100" id="N51-Ex-oRI"/>
                             <constraint firstItem="TKK-cE-Ib6" firstAttribute="centerX" secondItem="6iP-Dy-ECf" secondAttribute="centerX" id="eip-bQ-QNy"/>
                             <constraint firstItem="AN3-Oe-nn7" firstAttribute="centerX" secondItem="6iP-Dy-ECf" secondAttribute="centerX" id="f85-NT-xah"/>
-                            <constraint firstItem="Otd-4q-n4Z" firstAttribute="top" secondItem="TKK-cE-Ib6" secondAttribute="bottom" id="gnC-JI-GdC"/>
                         </constraints>
                     </view>
                 </viewController>
