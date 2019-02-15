@@ -36,13 +36,13 @@ Holding a `UITabBarController`
 
 ## How to use Xcode Templates
 1. Close Xcode
-2. If not already present, create a folder named `File Templates` in the following path:
+2. If not already present, create a folder named `Source` in the following path:
     ```
-    ~/Library/Developer/Xcode/Templates/Source/
+    ~/Library/Developer/Xcode/Templates/File Templates/
     ```
 3. Move the `.xctemplate`s folders in:
     ```
-    ~/Library/Developer/Xcode/Templates/Source/File Templates/
+    ~/Library/Developer/Xcode/Templates/File Templates/Source/
     ```
 4. Open Xcode and try to create a new file with:
     ```
