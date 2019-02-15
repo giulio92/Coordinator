@@ -34,6 +34,21 @@ Holding a `UITabBarController`
 ### What a `Coordinator` should not do
 - Perform anything other than navigation (i.e. network calls)
 
+## How to use Xcode Templates
+1. Close Xcode
+2. If not already present, create a folder named `File Templates` in the following path:
+    ```
+    ~/Library/Developer/Xcode/Templates/
+    ```
+3. Move the `.xctemplate`s folders in:
+    ```
+    ~/Library/Developer/Xcode/Templates/File Templates/
+    ```
+4. Open Xcode and try to create a new file with:
+    ```
+    Xcode > File > New > File...
+    ```
+
 ## Example project requirements
 - Xcode 10.0+
 - Swift 4.2+
