@@ -38,11 +38,11 @@ Holding a `UITabBarController`
 1. Close Xcode
 2. If not already present, create a folder named `File Templates` in the following path:
     ```
-    ~/Library/Developer/Xcode/Templates/
+    ~/Library/Developer/Xcode/Templates/Source/
     ```
 3. Move the `.xctemplate`s folders in:
     ```
-    ~/Library/Developer/Xcode/Templates/File Templates/
+    ~/Library/Developer/Xcode/Templates/Source/File Templates/
     ```
 4. Open Xcode and try to create a new file with:
     ```
