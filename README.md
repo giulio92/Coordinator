@@ -40,7 +40,7 @@ Holding a `UITabBarController`
     ```
     ~/Library/Developer/Xcode/Templates/File Templates/
     ```
-3. Move the `.xctemplate`s folders in:
+3. Move the `.xctemplate`s of choice in:
     ```
     ~/Library/Developer/Xcode/Templates/File Templates/Source/
     ```
