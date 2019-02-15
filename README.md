@@ -25,9 +25,9 @@ Holding a `UINavigationController`
 Holding a `UITabBarController`
 
 ### What a `Coordinator` should do
-- Present `Coordinator`s
 - Push a `UIViewController`/`UINavigationController`/`UTabBarController` of another `Coordinator`
 - Create `Couple`s object
+- Present `Coordinator`s
 - Be invisible to `UIViewController`s and only known by `ViewModel`s
 - Hold `Dependencies` in case of [Dependency Injection](https://en.wikipedia.org/wiki/Dependency_injection)
 
@@ -38,6 +38,9 @@ Holding a `UITabBarController`
 - Xcode 10.0+
 - Swift 4.2+
 - iOS 8.0+
+
+## Image source requirements
+- Sketch 53+
 
 ## Credits
 - [Soroush Khanlou](https://github.com/khanlou), for his original `Coordinator` proposal
