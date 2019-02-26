@@ -55,11 +55,7 @@ final class MainCoordinator: NavCoordinator {
     }
 
     func showTabBarCoordinator(animated: Bool) {
-        let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-
-        let tabBarController: TabBarController = TabBarController.initialize(from: storyboard)
-
-        let coordinator: TabBarCoordinator = TabBarCoordinator(tabBarController: tabBarController)
+		let coordinator: TabBarCoordinator = TabBarCoordinator(tabBarController: UITabBarController())
         addChildCoordinator(coordinator: coordinator)
 
         coordinator.start()

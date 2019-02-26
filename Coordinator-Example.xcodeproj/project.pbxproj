@@ -19,7 +19,6 @@
 		EFA0970E21EE1B7400331C67 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0970821EE1B7400331C67 /* Coordinator.swift */; };
 		EFA0970F21EE1B7400331C67 /* StoryboardProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0970A21EE1B7400331C67 /* StoryboardProtocol.swift */; };
 		EFA0971121EE1C8600331C67 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0971021EE1C8600331C67 /* MainCoordinator.swift */; };
-		EFA0971321EE1CE700331C67 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0971221EE1CE700331C67 /* TabBarController.swift */; };
 		EFA0971621EE1D9800331C67 /* WelcomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0971521EE1D9800331C67 /* WelcomePageController.swift */; };
 		EFA0971B21EE1E2000331C67 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0971A21EE1E2000331C67 /* TabBarCoordinator.swift */; };
 		EFA0971D21EE1E6F00331C67 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0971C21EE1E6E00331C67 /* HomeCoordinator.swift */; };
@@ -69,7 +68,6 @@
 		EFA0970821EE1B7400331C67 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Coordinator.swift; path = ../Protocols/Coordinator/Coordinator.swift; sourceTree = "<group>"; };
 		EFA0970A21EE1B7400331C67 /* StoryboardProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryboardProtocol.swift; path = ../Protocols/Utility/StoryboardProtocol.swift; sourceTree = "<group>"; };
 		EFA0971021EE1C8600331C67 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
-		EFA0971221EE1CE700331C67 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		EFA0971521EE1D9800331C67 /* WelcomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageController.swift; sourceTree = "<group>"; };
 		EFA0971A21EE1E2000331C67 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
 		EFA0971C21EE1E6E00331C67 /* HomeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
@@ -222,7 +220,6 @@
 			isa = PBXGroup;
 			children = (
 				EFA0971A21EE1E2000331C67 /* TabBarCoordinator.swift */,
-				EFA0971221EE1CE700331C67 /* TabBarController.swift */,
 				EFA0971721EE1DEF00331C67 /* Menu */,
 				EFA0971821EE1DF900331C67 /* Home */,
 				EFA0971921EE1E0700331C67 /* Settings */,
@@ -409,7 +406,6 @@
 				EFA0972121EE1ECA00331C67 /* SettingsCoordinator.swift in Sources */,
 				EFA0971121EE1C8600331C67 /* MainCoordinator.swift in Sources */,
 				EFA0970C21EE1B7400331C67 /* NavCoordinator.swift in Sources */,
-				EFA0971321EE1CE700331C67 /* TabBarController.swift in Sources */,
 				EFA0970E21EE1B7400331C67 /* Coordinator.swift in Sources */,
 				EFA0970B21EE1B7400331C67 /* PreviewingCoordinator.swift in Sources */,
 				EFA0971621EE1D9800331C67 /* WelcomePageController.swift in Sources */,
